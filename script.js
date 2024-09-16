@@ -1,5 +1,5 @@
 // Initialize prices (in Rupiah)
-const prices = [10000, 12000, 5000, 3000, 7000, 15000, 8000, 12000]; // Bakso, Mie Ayam, Kebab, Es Teh, Buavita, Sate, Seblak, Soto
+const prices = [10000, 12000, 5000, 3000, 7000, 15000, 8000, 12000, 5000]; // Bakso, Mie Ayam, Kebab, Es Teh, Buavita, Sate, Seblak, Soto, Kopi
 
 // Dish Elements (Array to store all quantity and total price elements)
 const quantities = [
@@ -10,7 +10,8 @@ const quantities = [
     document.getElementById('quantity5'),
     document.getElementById('quantity6'),
     document.getElementById('quantity7'),
-    document.getElementById('quantity8')
+    document.getElementById('quantity8'),
+    document.getElementById('quantity9')
 ];
 
 const totalPrices = [
@@ -21,7 +22,8 @@ const totalPrices = [
     document.getElementById('totalPrice5'),
     document.getElementById('totalPrice6'),
     document.getElementById('totalPrice7'),
-    document.getElementById('totalPrice8')
+    document.getElementById('totalPrice8'),
+    document.getElementById('totalPrice9')
 ];
 
 // Grand Total
