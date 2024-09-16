@@ -127,7 +127,7 @@ document.getElementById('order-btn').addEventListener('click', function() {
     const totalPrice = document.getElementById('grandTotal').textContent.replace(/\./g, '');
 
     // Collect food order quantities with names
-    const foodNames = ['Bakso', 'Mie Ayam', 'Kebab', 'Es Teh', 'Buavita'];
+    const foodNames = ['Bakso', 'Mie Ayam', 'Kebab', 'Es Teh', 'Buavita','Sate','Seblak','Soto'];
     let foodOrders = [];
     for (let i = 0; i < quantities.length; i++) {
         if (parseInt(quantities[i].textContent, 10) > 0) {
